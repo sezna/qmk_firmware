@@ -1,0 +1,14 @@
+in order to turn jsons in here into keymaps, you need the qmk cli:
+python3 -m pip install --user qmk
+
+and do
+```
+qmk json2c <file>
+```
+
+# my let's split
+to make it: `sudo make lets_split/rev2:default:avrdude`
+
+# my green metal planck
+to make it:
+
